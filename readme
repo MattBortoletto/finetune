@@ -1,0 +1,5 @@
+Custom finetuning pipeline based on transformers, trl, and peft.
+
+Can perform full SFT, LoRA, and QLoRA.
+
+For now it loads specific datasets (not included here) but I want to make it modular so that one can quickly import any dataset loader and launch training. 
